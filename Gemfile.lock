@@ -1,6 +1,18 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    addressable (2.3.2)
+    cookiejar (0.3.0)
+    em-http-request (1.0.3)
+      addressable (>= 2.2.3)
+      cookiejar
+      em-socksify
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (>= 0.5.3)
+    em-socksify (0.2.1)
+      eventmachine (>= 1.0.0.beta.4)
+    eventmachine (1.0.0)
+    http_parser.rb (0.5.3)
     json (1.7.6)
     mime-types (1.19)
     rest-client (1.6.7)
@@ -10,5 +22,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  em-http-request
   json
   rest-client

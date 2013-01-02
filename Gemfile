@@ -1,4 +1,4 @@
 source :rubygems
 
-gem 'rest-client'
+gem 'em-http-request'
 gem 'json'
