@@ -1,6 +1,5 @@
 require 'rest-client'
 require 'json'
-require 'pp'
 
 $stdout.sync = true
 
