@@ -3,6 +3,8 @@ require 'rest-client'
 require 'json'
 require 'pp'
 
+$stdout.sync = true
+
 SLEEP_INTERVAL = 30
 API_KEY = ENV['STACK_EXCHANGE_KEY']
 
