@@ -1,4 +1,3 @@
-require 'daemons'
 require 'rest-client'
 require 'json'
 require 'pp'
